@@ -8,9 +8,9 @@ package vault
 import (
 	"math"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/namingschema"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/namingschema"
 )
 
 type config struct {

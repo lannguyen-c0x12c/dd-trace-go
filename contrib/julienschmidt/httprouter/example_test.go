@@ -12,9 +12,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/julienschmidt/httprouter"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/julienschmidt/httprouter"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 )
 
 func Index(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {

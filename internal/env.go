@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
 )
 
 // BoolEnv returns the parsed boolean value of an environment variable, or

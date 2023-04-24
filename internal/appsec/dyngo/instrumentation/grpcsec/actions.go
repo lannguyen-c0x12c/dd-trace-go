@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo/instrumentation"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo/instrumentation"
 )
 
 // Action is used to identify any action kind

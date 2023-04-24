@@ -8,8 +8,8 @@ package tracer
 import (
 	"context"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/internal"
 )
 
 type contextKey struct{}

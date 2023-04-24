@@ -10,7 +10,7 @@ import (
 
 	"github.com/spaolacci/murmur3"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler/internal/pproflite"
+	"github.com/lannguyen-c0x12c/dd-trace-go/profiler/internal/pproflite"
 )
 
 // As of Go 1.19, the Go heap profile has 4 values per sample, with 2 of them

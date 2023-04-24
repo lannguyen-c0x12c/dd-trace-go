@@ -4,7 +4,7 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package mux provides tracing functions for tracing the gorilla/mux package (https://github.com/gorilla/mux).
-package mux // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/gorilla/mux"
+package mux // import "github.com/lannguyen-c0x12c/dd-trace-go/contrib/gorilla/mux"
 
 import (
 	"net/http"
@@ -12,12 +12,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/net/http"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/net/http"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "gorilla/mux"

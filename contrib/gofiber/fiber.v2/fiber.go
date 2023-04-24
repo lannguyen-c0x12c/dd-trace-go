@@ -4,7 +4,7 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package fiber provides tracing functions for tracing the fiber package (https://github.com/gofiber/fiber).
-package fiber // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/gofiber/fiber.v2"
+package fiber // import "github.com/lannguyen-c0x12c/dd-trace-go/contrib/gofiber/fiber.v2"
 
 import (
 	"fmt"
@@ -12,11 +12,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 
 	"github.com/gofiber/fiber/v2"
 )

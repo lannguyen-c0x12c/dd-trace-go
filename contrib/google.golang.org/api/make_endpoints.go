@@ -23,7 +23,7 @@ import (
 
 	"github.com/yosida95/uritemplate"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/google.golang.org/api/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/google.golang.org/api/internal"
 )
 
 type (
@@ -167,7 +167,7 @@ package api
 import (
 	"regexp"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/google.golang.org/api/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/google.golang.org/api/internal"
 )
 
 func init() {

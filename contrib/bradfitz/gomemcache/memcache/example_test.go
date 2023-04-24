@@ -10,8 +10,8 @@ import (
 
 	"github.com/bradfitz/gomemcache/memcache"
 
-	memcachetrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/bradfitz/gomemcache/memcache"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	memcachetrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/bradfitz/gomemcache/memcache"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 )
 
 func Example() {

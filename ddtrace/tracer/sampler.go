@@ -11,9 +11,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/samplernames"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/samplernames"
 )
 
 // Sampler is the generic interface of any sampler. It must be safe for concurrent use.

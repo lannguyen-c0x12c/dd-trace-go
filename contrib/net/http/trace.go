@@ -3,20 +3,20 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package http // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/net/http"
+package http // import "github.com/lannguyen-c0x12c/dd-trace-go/contrib/net/http"
 
 //go:generate sh -c "go run make_responsewriter.go | gofmt > trace_gen.go"
 
 import (
 	"net/http"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/internal/httptrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/httpsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/internal/httptrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo/instrumentation/httpsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "net/http"

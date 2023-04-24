@@ -6,8 +6,8 @@
 package fiber_test
 
 import (
-	fibertrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/gofiber/fiber.v2"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	fibertrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/gofiber/fiber.v2"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 
 	"github.com/gofiber/fiber/v2"
 )

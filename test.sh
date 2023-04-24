@@ -75,7 +75,7 @@ fi
 
 if [[ ! -z "$lint" ]]; then
     echo "Running Linter"
-    goimports -e -l -local github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1 .
+    goimports -e -l -localgithub.com/lannguyen-c0x12c/dd-trace-go .
 fi
 
 if [[ "$INTEGRATION" != "" ]]; then

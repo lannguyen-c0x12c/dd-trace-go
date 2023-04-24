@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
-	logger "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/osinfo"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/version"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
+	logger "github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/osinfo"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/version"
 )
 
 // Client buffers and sends telemetry messages to Datadog (possibly through an

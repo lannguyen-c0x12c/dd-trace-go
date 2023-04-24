@@ -8,7 +8,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/version"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/version"
 )
 
 func ghOutput(varName, v string) string {

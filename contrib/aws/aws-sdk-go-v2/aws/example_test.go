@@ -12,7 +12,7 @@ import (
 	awscfg "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/sqs"
 
-	awstrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/aws/aws-sdk-go-v2/aws"
+	awstrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/aws/aws-sdk-go-v2/aws"
 )
 
 func Example() {

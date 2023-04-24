@@ -9,8 +9,8 @@ import (
 	"context"
 	"log"
 
-	buntdbtrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/tidwall/buntdb"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	buntdbtrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/tidwall/buntdb"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 )
 
 func Example() {

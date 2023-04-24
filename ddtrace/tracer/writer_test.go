@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
 )
 
 func TestImplementsTraceWriter(t *testing.T) {

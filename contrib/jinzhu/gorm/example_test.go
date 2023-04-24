@@ -11,8 +11,8 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/lib/pq"
 
-	sqltrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/database/sql"
-	gormtrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/jinzhu/gorm"
+	sqltrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/database/sql"
+	gormtrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/jinzhu/gorm"
 )
 
 func ExampleOpen() {

@@ -8,7 +8,7 @@ package aws
 import (
 	"math"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal"
 )
 
 type config struct {

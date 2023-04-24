@@ -9,10 +9,10 @@ import (
 	"context"
 	"log"
 
-	sqltrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/database/sql"
-	gormtrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/gorm.io/gorm.v1"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	sqltrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/database/sql"
+	gormtrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/gorm.io/gorm.v1"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 
 	"github.com/jackc/pgx/v5/stdlib"
 	"gorm.io/driver/postgres"

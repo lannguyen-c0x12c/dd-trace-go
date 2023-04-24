@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	golang.org/x/sync v0.1.0
-	github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1 v1.49.0
+	github.com/lannguyen-c0x12c/dd-trace-go v1.49.0
 )
 
 require (
@@ -50,4 +50,4 @@ require (
 )
 
 // use local version of dd-trace-go
-replace github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1 => ../../..
+replacegithub.com/lannguyen-c0x12c/dd-trace-go => ../../..

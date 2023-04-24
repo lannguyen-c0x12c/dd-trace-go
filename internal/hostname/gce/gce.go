@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/hostname/cachedfetch"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/hostname/httputils"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/hostname/cachedfetch"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/hostname/httputils"
 )
 
 // declare these as vars not const to ease testing

@@ -18,10 +18,10 @@ import (
 	"github.com/DataDog/gostackparse"
 	pprofile "github.com/google/pprof/profile"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler/internal/fastdelta"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler/internal/pprofutils"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/profiler/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/profiler/internal/fastdelta"
+	"github.com/lannguyen-c0x12c/dd-trace-go/profiler/internal/pprofutils"
 )
 
 // ProfileType represents a type of profile that the profiler is able to run.

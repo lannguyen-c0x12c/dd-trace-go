@@ -8,7 +8,7 @@ package tracer
 import (
 	"fmt"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 )
 
 // startTelemetry starts the global instrumentation telemetry client with tracer data

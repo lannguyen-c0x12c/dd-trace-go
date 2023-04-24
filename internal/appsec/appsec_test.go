@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
 
 	waf "github.com/DataDog/go-libddwaf"
 	"github.com/stretchr/testify/assert"

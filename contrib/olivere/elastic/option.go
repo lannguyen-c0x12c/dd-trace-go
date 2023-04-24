@@ -9,8 +9,8 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/namingschema"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/namingschema"
 )
 
 const defaultServiceName = "elastic.client"

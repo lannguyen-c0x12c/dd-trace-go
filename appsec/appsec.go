@@ -15,12 +15,12 @@ import (
 	"context"
 	"sync"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/httpsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/sharedsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo/instrumentation/httpsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo/instrumentation/sharedsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
 )
 
 var appsecDisabledLog sync.Once

@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/version"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/version"
 )
 
 // Level specifies the logging level that the log package prints at.

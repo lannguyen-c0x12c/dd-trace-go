@@ -3,12 +3,12 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package redis // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/go-redis/redis"
+package redis // import "github.com/lannguyen-c0x12c/dd-trace-go/contrib/go-redis/redis"
 
 import (
 	"math"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal"
 )
 
 type clientConfig struct {

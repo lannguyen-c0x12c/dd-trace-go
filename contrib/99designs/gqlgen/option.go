@@ -8,7 +8,7 @@ package gqlgen
 import (
 	"math"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
 )
 
 const defaultServiceName = "graphql"

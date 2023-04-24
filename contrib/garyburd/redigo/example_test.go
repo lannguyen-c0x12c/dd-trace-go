@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	redigotrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/garyburd/redigo"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	redigotrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/garyburd/redigo"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
 
 	"github.com/garyburd/redigo/redis"
 )

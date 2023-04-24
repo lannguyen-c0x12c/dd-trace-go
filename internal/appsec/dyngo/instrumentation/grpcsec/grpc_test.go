@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/grpcsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec/dyngo/instrumentation/grpcsec"
 )
 
 func TestUsage(t *testing.T) {

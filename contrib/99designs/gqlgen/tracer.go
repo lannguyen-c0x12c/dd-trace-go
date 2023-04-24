@@ -21,8 +21,8 @@
 //		"github.com/99designs/gqlgen/_examples/todo"
 //		"github.com/99designs/gqlgen/graphql/handler"
 //
-//		"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-//		gqlgentrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/99designs/gqlgen"
+//		"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+//		gqlgentrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/99designs/gqlgen"
 //	)
 //
 //	func Example() {
@@ -50,10 +50,10 @@ import (
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 )
 
 const componentName = "99designs/gqlgen"

@@ -13,12 +13,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/internal"
-	ginternal "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
-	sharedinternal "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/samplernames"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/internal"
+	ginternal "github.com/lannguyen-c0x12c/dd-trace-go/internal"
+	sharedinternal "github.com/lannguyen-c0x12c/dd-trace-go/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/samplernames"
 )
 
 var _ ddtrace.SpanContext = (*spanContext)(nil)

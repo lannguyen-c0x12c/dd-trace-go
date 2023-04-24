@@ -14,11 +14,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/osinfo"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/version"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/osinfo"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/version"
 )
 
 // startupInfo contains various information about the status of the tracer on startup.

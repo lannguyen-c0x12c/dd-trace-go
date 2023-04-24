@@ -10,7 +10,7 @@ package telemetry
 import (
 	"time"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
 )
 
 // ProductStart signals that the product has started with some configuration

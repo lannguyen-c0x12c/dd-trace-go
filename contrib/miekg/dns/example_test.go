@@ -10,7 +10,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	dnstrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/miekg/dns"
+	dnstrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/miekg/dns"
 )
 
 func Example_client() {

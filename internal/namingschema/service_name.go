@@ -5,7 +5,7 @@
 
 package namingschema
 
-import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
+import "github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
 
 // NewServiceNameSchema returns a Schema with the standard logic to be used for contrib span service names
 // (in-code override > DD_SERVICE environment variable > integration default name).

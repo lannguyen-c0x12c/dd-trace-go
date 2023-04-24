@@ -13,7 +13,7 @@ import (
 
 	"github.com/spaolacci/murmur3"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler/internal/pproflite"
+	"github.com/lannguyen-c0x12c/dd-trace-go/profiler/internal/pproflite"
 )
 
 // Hash is a 128-bit hash representing sample identity

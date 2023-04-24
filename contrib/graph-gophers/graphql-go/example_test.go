@@ -12,7 +12,7 @@ import (
 	graphql "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 
-	graphqltrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/graph-gophers/graphql-go"
+	graphqltrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/graph-gophers/graphql-go"
 )
 
 type resolver struct{}

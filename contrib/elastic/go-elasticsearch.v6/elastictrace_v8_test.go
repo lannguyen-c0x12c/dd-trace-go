@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/internal/namingschematest"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
+	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/internal/namingschematest"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/mocktracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
 
 	elasticsearch8 "github.com/elastic/go-elasticsearch/v8"
 	esapi8 "github.com/elastic/go-elasticsearch/v8/esapi"

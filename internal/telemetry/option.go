@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/globalconfig"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/globalconfig"
 )
 
 // An Option is used to configure the telemetry client's settings

@@ -8,9 +8,9 @@ package namingschematest
 import (
 	"testing"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/internal/httptrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/namingschema"
+	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/internal/httptrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/mocktracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/namingschema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

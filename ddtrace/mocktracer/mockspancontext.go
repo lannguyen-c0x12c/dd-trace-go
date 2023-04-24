@@ -9,7 +9,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
 )
 
 var _ ddtrace.SpanContext = (*spanContext)(nil)

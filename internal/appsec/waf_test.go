@@ -16,10 +16,10 @@ import (
 	"strings"
 	"testing"
 
-	pAppsec "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/appsec"
-	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/net/http"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
+	pAppsec "github.com/lannguyen-c0x12c/dd-trace-go/appsec"
+	httptrace "github.com/lannguyen-c0x12c/dd-trace-go/contrib/net/http"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/mocktracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
 
 	"github.com/stretchr/testify/require"
 )

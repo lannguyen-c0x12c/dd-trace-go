@@ -20,17 +20,17 @@
 //	opentracing.StartSpan("http.request", opentracer.ResourceName("/user/profile"))
 //
 // Some libraries and frameworks are supported out-of-the-box by using our integrations. You can see a list
-// of supported integrations here: https://godoc.org/github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib. They are fully
+// of supported integrations here: https://godoc.org/github.com/lannguyen-c0x12c/dd-trace-go/contrib. They are fully
 // compatible with the Opentracing implementation.
 package opentracer
 
 import (
 	"context"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/internal"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
 
 	opentracing "github.com/opentracing/opentracing-go"
 )
