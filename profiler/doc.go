@@ -5,4 +5,4 @@
 
 // Package profiler periodically collects and sends profiles to the Datadog API.
 // Use Start to start the profiler.
-package profiler // import "gopkg.in/DataDog/dd-trace-go.v1/profiler"
+package profiler // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler"

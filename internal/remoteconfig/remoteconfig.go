@@ -20,7 +20,7 @@ import (
 
 	rc "github.com/DataDog/datadog-agent/pkg/remoteconfig/state"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
 )
 
 // Callback represents a function that can process a remote config update.

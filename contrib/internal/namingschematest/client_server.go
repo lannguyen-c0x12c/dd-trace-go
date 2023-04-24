@@ -8,9 +8,9 @@ package namingschematest
 import (
 	"testing"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httptrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/namingschema"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/internal/httptrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/mocktracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/namingschema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

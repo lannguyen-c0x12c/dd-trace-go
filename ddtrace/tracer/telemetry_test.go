@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/telemetry/telemetrytest"
-	"gopkg.in/DataDog/dd-trace-go.v1/profiler"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry/telemetrytest"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/profiler"
 )
 
 func TestTelemetryEnabled(t *testing.T) {

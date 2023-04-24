@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-chi/chi"
 
-	chitrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/go-chi/chi"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	chitrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/go-chi/chi"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
 )
 
 func handler(w http.ResponseWriter, _ *http.Request) {

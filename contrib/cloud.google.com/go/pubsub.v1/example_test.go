@@ -9,7 +9,7 @@ import (
 	"context"
 	"log"
 
-	pubsubtrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/cloud.google.com/go/pubsub.v1"
+	pubsubtrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/cloud.google.com/go/pubsub.v1"
 
 	"cloud.google.com/go/pubsub"
 )

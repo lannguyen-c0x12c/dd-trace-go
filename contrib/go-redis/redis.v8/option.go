@@ -8,7 +8,7 @@ package redis
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal"
 )
 
 type clientConfig struct {

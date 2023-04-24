@@ -12,7 +12,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	mongotrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/go.mongodb.org/mongo-driver/mongo"
+	mongotrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/go.mongodb.org/mongo-driver/mongo"
 )
 
 func Example() {

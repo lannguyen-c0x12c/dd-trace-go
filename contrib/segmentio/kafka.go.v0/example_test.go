@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	kafkatrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/segmentio/kafka.go.v0"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	kafkatrace "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/segmentio/kafka.go.v0"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
 
 	kafka "github.com/segmentio/kafka-go"
 )
