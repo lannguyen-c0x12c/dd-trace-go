@@ -4,19 +4,19 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package chi provides tracing functions for tracing the go-chi/chi/v5 package (https://github.com/go-chi/chi).
-package chi // import "github.com/lannguyen-c0x12c/dd-trace-go/contrib/go-chi/chi.v5"
+package chi // import "github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/go-chi/chi.v5"
 
 import (
 	"fmt"
 	"math"
 	"net/http"
 
-	"github.com/lannguyen-c0x12c/dd-trace-go/contrib/internal/httptrace"
-	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/ext"
-	"github.com/lannguyen-c0x12c/dd-trace-go/ddtrace/tracer"
-	"github.com/lannguyen-c0x12c/dd-trace-go/internal/appsec"
-	"github.com/lannguyen-c0x12c/dd-trace-go/internal/log"
-	"github.com/lannguyen-c0x12c/dd-trace-go/internal/telemetry"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/contrib/internal/httptrace"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/ext"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/appsec"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/log"
+	"github.com/lannguyen-c0x12c/dd-trace-go/dd-trace-go.v1/internal/telemetry"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
@@ -57,7 +57,7 @@ func Middleware(opts ...Option) func(next http.Handler) http.Handler {
 				if cfg.isStatusError(status) {
 					opts = []tracer.FinishOption{tracer.WithError(fmt.Errorf("%d: %s", status, http.StatusText(status)))}
 				}
-				httptrace.FinishRequestSpan(span, status, opts...)
+				span.Finish(opts...)
 			}()
 
 			// pass the span through the request context
